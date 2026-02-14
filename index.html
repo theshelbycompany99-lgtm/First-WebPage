@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      color: white;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    img {
+      width: 200px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 16px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .yes {
+      background-color: #ff4b5c;
+      color: white;
+    }
+
+    .yes:hover {
+      background-color: #ff1e38;
+      transform: scale(1.1);
+    }
+
+    .no {
+      background-color: white;
+      color: #ff4b5c;
+    }
+
+    .no:hover {
+      background-color: #ffe5ec;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="aditya.jpeg" alt="My Photo">
+    <h1>Will you be my Valentine? ❤️</h1>
+    <button class="yes" onclick="window.location.href='yes.html'">Yes</button>
+    <button class="no" onclick="window.location.href='no.html'">No</button>
+  </div>
+
+</body>
+</html>
